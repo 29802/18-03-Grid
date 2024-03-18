@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    background-color: red;
+    width: 800px;
+    height: 400px;
+    grid-template-areas: 
+                        "a b"
+                        "a c";
+    gap: 10px;
+    margin: auto;
+}
+
+.a, .b, .c{
+    background-color: yellow;
+}
+
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b;
+}
+
+.c{
+    grid-area: c;
+}
