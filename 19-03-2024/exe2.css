@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    background-color: rgb(252, 234, 234);
+    width: 100vh;
+    height: 400px;
+    grid-template-areas: 
+                        "a a a"
+                        "b c d"
+                        "e e d";
+    gap: 10px;
+    margin: auto;
+}
+
+
+.a{
+    grid-area: a;
+    background-color: red;
+}
+
+.b{
+    grid-area: b;
+    background-color: green;
+}
+
+.c{
+    grid-area: c;
+    background-color: green;
+}
+
+.d{
+    grid-area: d;
+    background-color: green;
+}
+
+.e{
+    grid-area: e;
+    background-color: blue;
+}

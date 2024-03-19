@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    background-color: rgb(221, 115, 115);
+    width: 800px;
+    height: 400px;
+    grid-template-areas: 
+                        "a b"
+                        "a c"
+                        "a d"
+                        "e e";
+    gap: 10px;
+    margin: auto;
+}
+
+
+.a{
+    grid-area: a;
+    background-color: red;
+}
+
+.b{
+    grid-area: b;
+    background-color: blue;
+}
+
+.c{
+    grid-area: c;
+    background-color: yellow;
+}
+
+.d{
+    grid-area: d;
+    background-color: purple;
+}
+
+.e{
+    grid-area: e;
+    background-color: green;
+}
